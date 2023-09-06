@@ -1,0 +1,23 @@
+.tripDetails{
+   margin-top: 150px;
+    width: 80vh ;
+    height: 120vh;
+    border-radius: 15px;
+}
+
+.tripDetails img {
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link{
+    border: 1px solid black;
+}

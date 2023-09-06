@@ -1,0 +1,29 @@
+/* Home.css */
+
+.appp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://www.reali.co.il/wp-content/uploads/2018/03/shutterstock_313597526.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .ll {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ll:hover {
+    background-color: #0056b3;
+  }
+  

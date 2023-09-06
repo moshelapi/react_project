@@ -1,0 +1,38 @@
+.card{
+width: 200px;
+height: 350px;
+border-radius: 12px;
+text-align: center;
+margin: 10px;
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+.card img{
+    width: 200px;
+    height: 45%;
+    border-radius: 12px;
+}
+
+.card p {
+    margin: 6px 0px;
+}
+
+.card button{
+    margin-top: 30px;
+    width: 90px;
+    height: 30px;
+    border-radius: 5px; 
+    border: 1px solid black; 
+    cursor: pointer;
+}
+.card button:hover{
+    background-color: aliceblue;
+}
+
+.linkk{
+    display: inline-block;
+    text-decoration: none; 
+    cursor: pointer;
+    
+}
