@@ -1,0 +1,52 @@
+/* UserLogIn.css */
+
+.divvv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .h1111 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .jjijij {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .jlijlnl,
+  .ljnl {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .nlnlnlk {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .kbkjbj {
+    font-size: 18px;
+    color: red;
+    margin-top: 10px;
+  }
+  

@@ -11,7 +11,8 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 .card img{
     width: 200px;
     height: 45%;
-    border-radius: 12px;
+    border-top-left-radius: 12px;
+border-top-right-radius: 12px;
 }
 
 .card p {

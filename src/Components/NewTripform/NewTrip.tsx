@@ -21,10 +21,13 @@ export default function NewTrip(): JSX.Element|undefined{
   const options = {
     headers: { authorization : storedToken,}
   };
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async(e: React.FormEvent) => {
     e.preventDefault();
-axios.post('http://localhost:3000/api/trips',vacationData,options)
-window.location.reload();
+    try {axios.post('http://localhost:3000/api/trips',vacationData,options)
+    window.location.reload();}
+    catch{
+      window.alert("Permission Denied: You don't have access to this resource.");
+    }
 
      
 ;}
